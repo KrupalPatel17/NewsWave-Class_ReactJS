@@ -32,7 +32,7 @@ export class Navbar extends React.Component {
                                             <Link className="nav-link dropdown-toggle active" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 News Types
                                             </Link>
-                                            <ul className="dropdown-menu " style={{backgroundColor:this.props.mode === "light"? "white" :"darkgray" }}>
+                                            <ul className="dropdown-menu show" style={{backgroundColor:this.props.mode === "light"? "white" :"darkgray" }}>
                                                 <li><Link className="dropdown-item" to="/business" style={{fontWeight:"bold"}}>Business</Link></li>
                                                 <li><Link className="dropdown-item" to="/entertainment"style={{fontWeight:"bold"}}>Entertainment</Link></li>
                                                 <li><Link className="dropdown-item" to="/general"style={{fontWeight:"bold"}}>General</Link></li>
